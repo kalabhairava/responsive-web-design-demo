@@ -1,0 +1,23 @@
+.align-center {
+    text-align: center;
+}
+
+.blue-box {
+    width: 100%;
+    height: 150px;
+    background-color: #0b97c4;
+}
+
+/************************ styles targeted for tablets**************************************/
+@media (min-width: 700px) and (max-width: 900px) {
+    .blue-box {
+        width: 75%;
+    }
+}
+
+/************************ styles targeted for larger devices*******************************/
+@media (min-width: 901px) {
+    .blue-box {
+        width: 50%;
+    }
+}
