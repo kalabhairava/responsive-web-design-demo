@@ -1,23 +1,36 @@
+/* ////////////////////////////////
+* Base Styles
+* ////////////////////////////////
+*/
+
 .align-center {
     text-align: center;
 }
 
 .blue-box {
-    width: 100%;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     background-color: #0b97c4;
 }
 
-/************************ styles targeted for tablets**************************************/
+/* ////////////////////////////////
+* Styles targeted for tablets
+* ////////////////////////////////
+*/
 @media (min-width: 700px) and (max-width: 900px) {
     .blue-box {
-        width: 75%;
+        width: 300px;
+        height: 300px;
     }
 }
 
-/************************ styles targeted for larger devices*******************************/
+/* ////////////////////////////////
+* Styles targeted for large devices
+* ////////////////////////////////
+*/
 @media (min-width: 901px) {
     .blue-box {
-        width: 50%;
+        width: 400px;
+        height: 400px;
     }
 }

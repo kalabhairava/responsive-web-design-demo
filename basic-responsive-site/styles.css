@@ -1,0 +1,107 @@
+
+/* ////////////////////////////////
+* Base Styles
+* ////////////////////////////////
+*/
+
+/* the illusion of colors*/
+
+.teal-aurora {
+    background-color: #0a8a8c;
+    opacity: 0.5;
+}
+
+.summer-blue {
+    background-color: #1d4094;
+    opacity: 0.5;
+}
+
+.devilish-red {
+    background-color: #A52A2A;
+    opacity: 0.5;
+}
+
+.matrix-green {
+    background-color: #157C15;
+    opacity: 0.5;
+}
+
+.align-center {
+    text-align: center;
+}
+
+p {
+    height: 150px;
+    border: 2px solid black;
+}
+
+.row {
+    width: 100%;
+}
+
+/* ///////////////////////////////////////////////////////
+* Styles targeted for medium devices
+* ///////////////////////////////////////////////////////
+
+*/@media (min-width: 500px) and (max-width: 799px) {
+
+    /* float elements to the left */
+    .md-1, .md-2, .md-3, .md-4 {
+        float: left;
+        box-sizing: border-box;
+    }
+
+    /* one column */
+    .md-1 {
+        width: 25%;
+    }
+
+    /* two columns */
+    .md-2 {
+        width: 50%;
+    }
+
+    /* three columns */
+    .md-3 {
+        width: 75%;
+    }
+
+    /* four columns */
+    .md-4 {
+        width: 100%;
+    }
+}
+
+
+/* ///////////////////////////////////////////////////////
+* Styles targeted for larger devices
+* ///////////////////////////////////////////////////////
+
+*/@media (min-width: 800px) {
+
+    /* float elements to the left */
+    .lg-1, .lg-2, .lg-3, .lg-4 {
+        float: left;
+        box-sizing: border-box;
+    }
+
+    /* one column */
+    .lg-1 {
+        width: 25%;
+    }
+
+    /* two columns */
+    .lg-2 {
+        width: 50%;
+    }
+
+    /* three columns */
+    .lg-3 {
+        width: 75%;
+    }
+
+    /* four columns */
+    .lg-4 {
+        width: 100%;
+    }
+}
