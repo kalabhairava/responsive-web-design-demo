@@ -1,18 +1,30 @@
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width initial-scale=1">
     <title>
         Primitive Responsive Site
     </title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 class="align-center">The illusion of colors</h1>
+    <!-- Normal grid-->
+    <!--<
+    h1 class="align-center">Primitive Responsive Site</h1>
     <div class="row">
         <p class="lg-1 md-2 teal-aurora"></p>
         <p class="lg-1 md-2 summer-blue"></p>
         <p class="lg-1 md-2 devilish-red"></p>
         <p class="lg-1 md-2 matrix-green"></p>
+    </div>-->
+
+    <!-- Nested grid -->
+    <h1 class="align-center little-margin">Nested Grid</h1>
+    <div id="nestedGrid" class="row">
+        <div class="lg-2 md-2 summer-blue">
+                <div class="lg-2 md-2 devilish-red"></div>
+                <div class="lg-2 md-2 teal-aurora"></div>
+        </div>
+        <div class="lg-2 md-2 devilish-red"></div>
     </div>
 </body>
 </html>

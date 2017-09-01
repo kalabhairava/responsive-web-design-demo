@@ -8,26 +8,38 @@
 
 .teal-aurora {
     background-color: #0a8a8c;
-    opacity: 0.5;
 }
 
 .summer-blue {
-    background-color: #1d4094;
-    opacity: 0.5;
+    background-color: #428bca;
 }
 
 .devilish-red {
-    background-color: #A52A2A;
-    opacity: 0.5;
+    background-color: #d9534f;
 }
 
 .matrix-green {
-    background-color: #157C15;
-    opacity: 0.5;
+    background-color: #5cb85c;
 }
 
 .align-center {
     text-align: center;
+}
+
+.little-margin {
+    margin-top: 1rem;
+}
+
+#nestedGrid > div {
+    height: 300px;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+#nestedGrid > div > div{
+    height: 90%;
+    border: 1px solid black;
+    margin: auto;
 }
 
 p {
